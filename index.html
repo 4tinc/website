@@ -1,9 +1,76 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Example</title>
-    </head>
-    <body>
-        <p>This is an example of a simple HTML page with one paragraph.</p>
-    </body>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>محل لبيع وشراء مكائن الخياطة</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      margin: 20px 0;
+    }
+
+    .logo img {
+      max-width: 150px;
+    }
+
+    .contact-info {
+      line-height: 2;
+      font-size: 1rem;
+    }
+
+    .contact-info span {
+      display: block;
+    }
+
+    .contact-info .email,
+    .contact-info .phone {
+      margin-top: 10px;
+    }
+
+    @media (max-width: 480px) {
+      .contact-info {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="path-to-your-logo.png" alt="4t Logo">
+    </div>
+
+    <div class="contact-info">
+      <span>محل</span>
+      <span>لبيع وشراء مكائن الخياطة</span>
+      <div class="phone">
+        <span>رقم الهاتف: ٠٠٩٦٧٥٠٤٨٨٨٦٩٩</span>
+        <span>٠٠٩٦٧٥٠٨٥٣٨٣٠٣</span>
+      </div>
+      <div>
+        <span>فيسبوك: sardary mam abdulla</span>
+      </div>
+      <div class="email">
+        <span>البريد الإلكتروني: sardarymamabdulla@gmail.com</span>
+      </div>
+    </div>
+  </div>
+</body>
 </html>
